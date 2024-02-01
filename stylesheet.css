@@ -1,6 +1,6 @@
 body{
     /* CSS Comment */
-    background-color: rgb(80, 120, 200);
+    background-color: rgb(0,173,239);
     background-repeat: repeat;
     font-family: Palatino;
     font-size: 20px;
@@ -30,7 +30,7 @@ body{
     }
  }
  a{
-    color: rgb(255, 165, 0);
+    color: rgb(236,91,47);
  }
  .banner{
     width: 100%;
