@@ -34,11 +34,11 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-   background-color: rgb(240, 240, 240);
+   background-color: rgb(255, 255, 255);
 }
 
 a {
-   color: rgb(236, 91, 47);
+   color: rgb(157, 59, 29);
 }
 
 .banner {
