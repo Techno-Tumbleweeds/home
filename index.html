@@ -1,27 +1,11 @@
 <!DOCTYPE html>
-<!-- Comment-->
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techno Tumbleweeds</title>
-    <link href="stylesheet.css" rel="stylesheet">
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(1fr, 50px));
-            gap: 10px;
-            justify-content: center;
-        }
-
-        .grid-item {
-            width: 100%;
-        }
-
-        .grid-item img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
@@ -32,90 +16,67 @@
     <div class="middle">
         <section>
             <ul class="menu">
-                <li>
-                    <a href="Robot.html"><img src="images/Our Robot.png"</a>
-                </li>
-                
-                <li>   </li>
-                
-                <li>
-                    <a href="Team.html"><img src="images/The Team.png"</a>
-                </li>
-                                
-                <li>   </li>
-                
-                <li>
-                    <a href="Past Seasons.html"><img src="images/Past Seasons.png"></a>
-                </li>
+                <li><a href="Robot.html"><img src="images/Our Robot.png"></a></li>
+                <li><a href="Team.html"><img src="images/The Team.png"></a></li>
+                <li><a href="Past Seasons.html"><img src="images/Past Seasons.png"></a></li>
             </ul>
 
             <h1>Meet the Team</h1>
-            <p>We are the Techno Tumbleweeds from Scottsbluff, Nebraska. We are a first year FIRST Tech Challange (FTC) team. We were previouly in FIRST Lego Leugue (FLL), but we are leveling up our game! We are really excited that we are learning new types of code, robo design, and CAD.</p>
+            <p>We are the Techno Tumbleweeds from Scottsbluff, Nebraska. We are a first-year FIRST Tech Challenge (FTC) team. We were previously in FIRST Lego League (FLL), but we are leveling up our game! We are really excited that we are learning new types of code, robo design, and CAD.</p>
+            
             <table style="width:100%">
                 <tr>
                     <th>Member</th>
                     <th>Role</th>
                     <th>Fun Fact</th>
                 </tr>
-                <tr>
-                    <td>Hudson</td>
-                    <td>Jack of all trades</td>
-                    <td>-Fun Fact-</td>
-                </tr>
-                 <tr>
-                    <td>Hunter</td>
-                    <td>Notebooks and Software</td>
-                    <td>He is missing his appendix</td>
-                </tr>
-                <tr>
-                    <td>Capria</td>
-                    <td>Hardware and Notebooks</td>
-                    <td>She is a vegitatian and is from Canida</td>
-                </tr>
-                <tr>
-                    <td>Noah</td>
-                    <td>Notebooks and Drone Expert</td>
-                    <td>He is somthing...</td>
-                </tr>
-                <tr>
-                    <td>Landen</td>
-                    <td>Jack of all trades</td>
-                    <td>Math Wizz</td>
-                </tr>
-                <tr>
-                    <td>Wyatt</td>
-                    <td>Hardware</td>
-                    <td>Restored an ond truck</td>
-                </tr>
-                <tr>
-                    <td>Caleb</td>
-                    <td>Hardware</td>
-                    <td>Won a robotics contest</td>
-                </tr>
+                <?php
+                $members = array(
+                    array("Hudson", "Jack of all trades", "-Fun Fact-"),
+                    array("Hunter", "Notebooks and Software", "He is missing his appendix"),
+                    array("Capria", "Hardware and Notebooks", "She is a vegetarian and is from Canada"),
+                    array("Noah", "Notebooks and Drone Expert", "He is something..."),
+                    array("Landen", "Jack of all trades", "Math Whizz"),
+                    array("Wyatt", "Hardware", "Restored an old truck"),
+                    array("Caleb", "Hardware", "Won a robotics contest")
+                );
+
+                foreach ($members as $member) {
+                    echo "<tr>";
+                    foreach ($member as $detail) {
+                        echo "<td>$detail</td>";
+                    }
+                    echo "</tr>";
+                }
+                ?>
             </table>
 
             <h1> Our Robot - Tom</h1>
             <p>This is our robot, Tom. We made him with Tetrix and 3-D printed parts.</p>
 
             <div class="grid-container">
-                <div class="grid-item"><img src="images/IMG_8668.jpg" alt="Image 1"></div>
-                <div class="grid-item"><img src="images/Drone Launcher.jpg" alt="Image 2"></div>
-                <div class="grid-item"><img src="images/Above.jpg" alt="Image 3"></div>
+                <?php
+                $robotImages = array("IMG_8668.jpg", "Drone Launcher.jpg", "Above.jpg");
+
+                foreach ($robotImages as $image) {
+                    echo "<div class='grid-item'><img src='images/$image' alt='Robot Image'></div>";
+                }
+                ?>
             </div>
 
-<h1>Our Past Seasons</h1>
+            <h1>Our Past Seasons</h1>
             <table style="width:95%">
                 <tr>
-                        <th>Season</th>
-                        <th>Link</th>
+                    <th>Season</th>
+                    <th>Link</th>
                 </tr>
                 <tr>
                     <td>2022-2023 FLL Super-Powered</td>
                     <td><a href="https://sites.google.com/view/the-last-gummy">The Last Gummy</a></td>
                 </tr>
             </table>
-            <h1>Our Sponsors</h1>
 
+            <h1>Our Sponsors</h1>
         </section>
     </div>
 </body>

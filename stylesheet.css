@@ -76,3 +76,21 @@ ul {
    width: 100%; /* Make images fill the container */
    height: auto; /* Maintain aspect ratio */
 }
+
+/* Your existing styles... */
+
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(1fr, 50px));
+   gap: 10px;
+   justify-content: center;
+}
+
+.grid-item {
+   width: 100%;
+}
+
+.grid-item img {
+   width: 100%;
+   height: auto;
+}
