@@ -34,12 +34,12 @@ tr:nth-child(odd) {
 
 /* Link Styles */
 a {
-   color: rgb(157, 59, 29);
+   color: #DF5D32;
 }
 
 /* Banner Styles */
 .banner {
-   width: 100%;
+   width: 80%;
    display: block;
    margin-left: auto;
    margin-right: auto;
