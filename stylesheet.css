@@ -66,27 +66,10 @@ ul {
    margin: 0;
 }
 
-/* Carousel Styles */
-.carousel {
-   width: 400px;
-   overflow: hidden;
-   margin: 20px auto;
-}
-
-.carousel-inner {
-   display: flex;
-   transition: transform 0.5s ease-in-out;
-}
-
-.carousel img {
-   width: 100%;
-   height: auto;
-}
-
 /* Grid Styles */
 .grid-container {
    display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(1fr, 50px));
+   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
    gap: 10px;
    justify-content: center;
 }
