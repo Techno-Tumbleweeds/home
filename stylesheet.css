@@ -54,7 +54,7 @@ a {
 
 /* Inner Section Styles */
 .innersection {
-   width: 70%;
+   width: 75%;
    margin: auto;
 }
 
@@ -75,7 +75,7 @@ ul {
 }
 
 .grid-item {
-   height: 200px;
+   height: 120px;
 }
 
 .grid-item img {
