@@ -1,10 +1,10 @@
     /* Body Styles */
-    body {
+body {
       background-color: #DF5D32;
       font-family: 'Heebo', Tahoma; /* Apply Heebo font to the body */
       font-size: 20px;
   }
-  
+
 .middle {
    width: 80%;
    margin: auto;
