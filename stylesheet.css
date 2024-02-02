@@ -71,11 +71,10 @@ ul {
    display: grid;
    gap: 10px;
    justify-content: center;
-   width: 50px;
 }
 
 .grid-item {
-   width: 100%;
+   width: 100px;
 }
 
 .grid-item img {
