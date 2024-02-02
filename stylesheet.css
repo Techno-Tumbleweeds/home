@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
 
-/* Body Styles */
-body {
-   background-color: rgb(0, 173, 239);
-   font-family: 'Heebo', Tahoma; /* Apply Heebo font to the body */
-   font-size: 20px;
-}
 
 .middle {
    width: 100%;
