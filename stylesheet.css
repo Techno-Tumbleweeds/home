@@ -91,6 +91,6 @@ ul {
 }
 
 .custom-line {
-   border: 1px solid #58595B; /* Set the border style and color */
+   border: 3px solid #58595B; /* Set the border style and color */
    width: 50%; /* Set the width of the line */
 }
