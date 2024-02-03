@@ -94,7 +94,7 @@ ul {
 .grid-item img {
    width: 400px;
    height: auto;
-   border-radius: 11px; /* Optional: Add border-radius for rounded corners */
+   border-radius: 40px; /* Optional: Add border-radius for rounded corners */
 }
 
 .custom-line {
