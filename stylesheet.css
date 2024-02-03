@@ -8,7 +8,7 @@ body {
 .middle {
    width: 80%;
    margin: auto;
-   background: rgb(152, 97, 97);
+   background: white;
 }
 
 /* Section Styles */
@@ -69,17 +69,18 @@ ul {
 
 /* Grid Styles */
 .grid-container {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-   gap: 10px;
-   justify-content: center;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px; /* Optional: Add padding for spacing */
 }
 
 .grid-item {
-   height: 120px;
+   flex: 0 0 auto;
+   margin-right: 10px; /* Optional: Add margin for spacing between images */
 }
 
 .grid-item img {
-   width: 100%;
+   width: 30px;
    height: auto;
+   border-radius: 8px; /* Optional: Add border-radius for rounded corners */
 }
