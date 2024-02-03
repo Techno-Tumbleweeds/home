@@ -89,3 +89,8 @@ ul {
    height: auto;
    border-radius: 7px; /* Optional: Add border-radius for rounded corners */
 }
+
+.custom-line {
+   border: 1px solid #58595B; /* Set the border style and color */
+   width: 50%; /* Set the width of the line */
+}
