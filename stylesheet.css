@@ -76,7 +76,7 @@ ul {
 
 .grid-item {
    flex: 0 0 auto;
-   margin-right: 10px; /* Optional: Add margin for spacing between images */
+   margin-right: 8px; /* Optional: Add margin for spacing between images */
 }
 
 .grid-item img {
