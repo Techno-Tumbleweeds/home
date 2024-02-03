@@ -23,6 +23,13 @@ h1 {
    text-align: center;
    font-family: Verdana;
 }
+
+h2 {
+   color: rgb(0, 173, 239);
+   text-align: center;
+   font-family: Verdana;
+}
+
 h3 {
    color: rgb(0, 173, 239);
    text-align: center;
